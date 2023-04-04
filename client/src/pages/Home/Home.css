@@ -1,0 +1,119 @@
+.homepage-component-outer {
+  /* background-color: blue; */
+  padding-top: 100px;
+}
+
+.alltodocontainerinhome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  padding: 0px;
+}
+
+.welcomebox h2 {
+  padding: 50px;
+  background-color: rgba(75, 232, 140, 0);
+}
+
+.todo-heading-container {
+  width: 100%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+/*  */
+.single-todo-outerbox {
+  width: 100%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.single-todo-outerbox h2 {
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.single-todo-outerbox input {
+  width: 20px;
+  height: 20px;
+}
+
+.single-todo-outerbox h3 {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cls-todo-priority {
+  padding: 0px;
+  display: flex;
+  background-color: rgba(255, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  box-shadow: none;
+}
+
+.cls-todo-priority h3 {
+  margin: 0px;
+  font-size: 10px;
+}
+.cls-todo-date {
+  width: 180px;
+  padding: 0px;
+  background-color: rgba(255, 0, 0, 0.065);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.brdr-rad {
+  background-color: aqua;
+}
+.cls-todo-text1 {
+  max-width: 50%;
+  min-width: 30%;
+  box-shadow: none;
+  padding: 0px;
+  background-color: rgba(171, 46, 46, 0.98);
+  display: flex;
+  justify-content: left;
+}
+
+.todo-heading-container .cls-todo-text1 {
+  background-color: rgba(255, 0, 0, 0);
+  padding-left: 10px;
+}
+
+.finish {
+  margin-right: 100px;
+}
+
+.all-heading-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+}
+
+.blank-balance {
+  width: 10%;
+}
+
+.todo-heading-container .all-heading-container .brdr-rad {
+  background-color: rgba(78, 236, 146, 0);
+  border-radius: 0px;
+}

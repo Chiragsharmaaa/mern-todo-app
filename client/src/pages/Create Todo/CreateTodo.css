@@ -1,0 +1,62 @@
+.CreateTodo-component-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  padding: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ebebeb;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.3,8.3l-7-7C12,1.1,11.5,1,11,1H4C2.9,1,2,1.9,2,3v7c0,0.5,0.1,1,0.3,1.3l7,7c0.7,0.7,1.8,0.7,2.5,0l7-7C20,10.1,20,9,19.3,8.3z"/></svg>')
+    no-repeat;
+  background-position: calc(100% - 10px) center;
+  background-size: 20px;
+  padding-right: 30px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+input[type="text"],
+select {
+  color: black;
+}

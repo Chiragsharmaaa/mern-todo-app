@@ -1,0 +1,102 @@
+.single-todo-outerbox {
+  width: 100%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.single-todo-outerbox h2 {
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.single-todo-outerbox input {
+  width: 20px;
+  height: 20px;
+}
+
+.single-todo-outerbox h3 {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.cls-todo-text {
+  max-width: 50%;
+  min-width: 30%;
+  box-shadow: none;
+  padding: 0px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px dashed chocolate;
+  display: flex;
+  justify-content: left;
+}
+
+.cls-todo-priority {
+  padding: 0px;
+  display: flex;
+  background-color: rgba(255, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  box-shadow: none;
+}
+
+.cls-todo-priority h3 {
+  margin: 0px;
+  font-size: 10px;
+}
+.cls-todo-date {
+  width: 180px;
+  padding: 0px;
+  background-color: rgba(255, 0, 0, 0.058);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.cls-todo-done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0);
+  box-shadow: none;
+}
+
+.cls-todo-starred {
+  background-color: rgba(255, 0, 0, 0);
+  padding: 0px;
+  box-shadow: none;
+}
+
+.check-and-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  width: 10%;
+}
+
+.todo-prio-dates-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}
+
+.remove-bg {
+  background-color: rgba(0, 255, 255, 0);
+  width: 200px;
+  font-size: 8px;
+}
+
+.cls-todo-edit {
+  size: 5px;
+}
