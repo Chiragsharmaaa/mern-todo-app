@@ -1,7 +1,7 @@
 const Todo = require("../models/todo");
 
 exports.postAddTodo = async (req, res, next) => {
-
+  console.log('req user>>>', req.user)
   const { text, priority, duedate, starred, done } = req.body;
   try {
     const data = await req.user.createTodo({
@@ -20,6 +20,7 @@ exports.postAddTodo = async (req, res, next) => {
 };
 
 exports.getAllTodos = async (req, res, next) => {
+  console.log('alltodos>>>', req.user)
   try {
     const todos = await Todo.findAll();
     res.status(200).json({ todos });
@@ -60,7 +61,6 @@ exports.deleteTodo = async (req, res, next) => {
     console.log('todoId', todoId)
     await req.user.getTodos({ where: { id: todoId } }).then((todo) => {
       let foundTodo = todo[0];
-      console.log('sds', foundTodo)
       foundTodo.destroy();
       res.status(200).json({ message: "Successfully deleted Todo!" });
     });

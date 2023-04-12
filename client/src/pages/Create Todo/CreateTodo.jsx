@@ -72,7 +72,7 @@ const CreateTodo = () => {
     <div className="CreateTodo-component-outer">
       <Box>
         <form onSubmit={formSubmitHandler}>
-          <input placeholder="Todo" type="text" ref={todoInputRef} />
+          <input placeholder="Todo" type="text" ref={todoInputRef} required />
           <div>
             <select required ref={priorityInputRef}>
               <option>High</option>
@@ -80,13 +80,14 @@ const CreateTodo = () => {
               <option>Low</option>
             </select>
           </div>
-          <div>
+          <div className="duedate">
             <label htmlFor="duedate">Due Date</label>
             <input
               id="duedate"
               placeholder="Due Date"
               type="date"
               ref={dueDateInputRef}
+              required
             />
           </div>
           <ReactStars

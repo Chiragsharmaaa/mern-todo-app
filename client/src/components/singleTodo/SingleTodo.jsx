@@ -1,15 +1,3 @@
-/*
-  {
-    text: "die",
-    completed: false,
-    due_date: new Date(24 - 12 - 2022),
-    priority: "high",
-    starred: true,
-    creation_date: new Date(24 - 12 - 2022),
-    finish_date: new Date(23 - 1 - 2023),
-  }
-*/
-
 import React, { useState } from "react";
 import Box from "../box/Box";
 import "./SingleTodo.css";

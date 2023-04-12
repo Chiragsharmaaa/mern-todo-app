@@ -38,14 +38,16 @@ const Signup = () => {
             type="text"
             placeholder="Username"
             ref={userNameRef}
+            required
           />
         </div>
         <div className="form-group">
           <input
             className="form-control"
-            type="text"
+            type="email"
             placeholder="Email"
             ref={userEmailRef}
+            required
           />
         </div>
         <div className="form-group">
@@ -54,6 +56,7 @@ const Signup = () => {
             type="password"
             placeholder="Password"
             ref={userPswrdRef}
+            required
           />
         </div>
         <button className="btn btn-primary" type="submit">

@@ -42,22 +42,25 @@ const UserDetails = () => {
             type="text"
             placeholder="Username"
             ref={userNameRef}
+            required
           />
         </div>
         <div className="form-group">
           <input
             className="form-control"
-            type="text"
+            type="email"
             placeholder="Old Email"
             ref={userOldEmailRef}
+            required
           />
         </div>
         <div className="form-group">
           <input
             className="form-control"
-            type="text"
+            type="email"
             placeholder="New Email"
             ref={userNewEmailRef}
+            required
           />
         </div>
         <div className="form-group">
@@ -66,10 +69,11 @@ const UserDetails = () => {
             type="password"
             placeholder="Password"
             ref={userPswrdRef}
+            required
           />
         </div>
         <button className="btn btn-primary" type="submit">
-          Register
+          Update
         </button>
       </form>
     </div>

@@ -21,6 +21,7 @@ function App() {
       dispatch(TodoActions.logout());
     }
   }, [token]);
+
   return (
     <div className="App">
       <Header />
